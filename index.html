@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="password-modal" id="passwordModal">
+        <div class="password-content">
+            <h2>Enter the secret code</h2>
+            <input type="password" class="password-input" id="passwordInput" placeholder="Our special word...">
+            <button class="submit-btn" id="submitPassword">Enter</button>
+        </div>
+    </div>
+
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1 class="welcome-message">Welcome granny, enjoy your stay</h1>
+    </div>
+
+    <div class="container" id="mainContent" style="display: none;">
+        <div class="tabs">
+            <button class="tab active" data-tab="love-letter">
+                <span>❤️</span> Letter
+            </button>
+            <button class="tab" data-tab="music">
+                <span>🎵</span> Music
+            </button>
+            <button class="tab" data-tab="notes">
+                <span>📝</span> Notes
+            </button>
+            <button class="tab" data-tab="gallery">
+                <span>🌷</span> Gallery
+            </button>
+        </div>
+
+        <div class="content-area">
+            <div class="tab-content active" id="love-letter">
+                <h2>My Granny</h2>
+                <div class="letter" id="loveLetter">
+                    <div class="letter-header">
+                        <h3>A Letter For You</h3>
+                        <span>👇 Click to open</span>
+                    </div>
+                    <div class="letter-content">
+                        <p>For my Granny,</p>
+                        <p>I was thinking about us today about our conversations, the way you laugh at my stupid jokes, 
+                            The way you get ragebaited by my playful teasing, and the way you always know how to make me feel better no matter what.
+                            I was reflecting on all these little things and especially how comfortable everything feels between us. 
+                            It made me realize how much I value what we have.</p>
+                        <p>The truth is, you've become really important to me. In all the small moments 
+                            our morning texts, late night talks, even the comfortable silences 
+                            I've found something real. And I'm not letting that go because of my own mistakes.
+                            You've become someone that I really cherish.</p>
+                         <p>We talked, and I meant what I said. I'm still sorry for being a dummy. 
+                            You know you're my favorite person to talk to, and I'm glad we're good.</p>
+                        <p>Anyway, this is just a little note to hopefully give you a smile.
+                            Can't have my favorite granny feeling anything less than special.</p>
+                        <p>Yours,</p>
+                        <p>       </p>
+
+                        <p>                                                              </p><p>-Gramps</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="music">
+                <h2>Songs that remind me of you</h2>
+                <div class="song">
+                    <div class="song-icon">🎵</div>
+                    <div class="song-info">
+                        <h4>Soft spot</h4>
+                        <p>by Keshi</p>
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="song-icon">🎵</div>
+                    <div class="song-info">
+                        <h4>Kalapastangan</h4>
+                        <p>by Fitterkarma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="notes">
+                <h2>Some reminders</h2>
+                <div class="note">
+                    <p>Take care always</p>
+                </div>
+                <div class="note">
+                    <p>Eat on time</p>
+                </div>
+                <div class="note">
+                    <p>Dont pressure yourself so much in acads</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="gallery">
+                <h2>Flowers for you</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1eaad721-3375-4d97-a5fa-cbf8a87d60b8.png">
+                    </div>
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/73632299-5dde-4ded-805a-88a7dcb4b5e4.png">
+                    </div>
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e9890063-b481-46f6-97a1-9fc753211e19.png">
+                    </div>
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4bc3dffd-4971-4223-b7e4-3699d2b97bbe.png">
+                    </div>
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d0daff3c-1751-492b-9b74-de28ac48d384.png">
+                    </div>
+                    <div class="gallery-item">
+                        <img
+                            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/51f3ca74-2471-403f-bb99-751536acd7d9.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heart" style="top: 10%; left: 5%;">❤️</div>
+    <div class="heart" style="top: 20%; right: 10%;">❤️</div>
+    <div class="heart" style="bottom: 15%; left: 15%;">❤️</div>
+    <div class="teddy-bear" style="top: 30%; left: 10%;">🧸</div>
+    <div class="teddy-bear" style="bottom: 10%; right: 5%;">🧸</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
